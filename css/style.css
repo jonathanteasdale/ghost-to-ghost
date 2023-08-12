@@ -1,0 +1,193 @@
+body {
+  width: 600px;
+  background: black;
+  margin: 20px auto;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+}
+
+/** Nav **/
+
+h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: -7px;
+  color: white;
+  text-transform: lowercase;
+  text-shadow: 3px 3px 0 green;
+}
+
+h1:hover {
+  color: pink;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 5.5rem;
+}
+.nav a {
+  margin: 30px;
+}
+
+/** Main **/
+
+article {
+  float: left;
+  margin-bottom: 60px;
+}
+
+article img {
+  float: left;
+  margin-right: 30px;
+}
+
+.preview {
+  float: right;
+  width: 330px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.75rem;
+  letter-spacing: -1px;
+}
+
+.wrap {
+  width: 80%;
+  height: 300px;
+  position: relative;
+  margin: 500px auto;
+  background: green;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background: lightpink;
+  position: absolute;
+  left: 10px;
+}
+
+a {
+  color: green;
+  font-size: 20px;
+}
+
+a:hover {
+  color: pink;
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+article img {
+  float: left;
+  margin-right: 30px;
+}
+
+article h2 {
+    margin: 0;
+}
+#h2-link {
+  text-align: left;
+  font-size: 1.75rem;
+  letter-spacing: -1px;
+}
+
+.continue {
+  float: right;
+}
+
+.continue:after {
+  content: ')'
+}
+
+.continue:before {
+  content: '('
+}
+
+.meta {
+  padding-left: 0;
+  margin: 0 0 10px;
+}
+
+.meta a, .post_info a {
+  font-style: italic;
+}
+
+.meta li:after {
+  content: '\\';
+  padding: 0 2px;
+  color: blue;
+}
+
+.meta li:last-child:after {
+  content: '';
+}
+
+.meta li {
+  display: inline;
+}
+
+.preview {
+  float: right;
+  width: 330px;
+}
+
+.post_info {
+  background: #434343;
+  color: white;
+  padding: 3px;
+  float: left;
+  font-size: 14px;
+}
+
+.post_info a {
+  color: green;
+  text-decoration: none;
+}
+
+.post_info a:hover {
+  color: pink;
+}
+
+.body {
+  clear: both;
+}
+
+/** Form **/
+
+form {
+  padding: 60px;
+}
+
+form li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+form ul {
+  padding-left: 0;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+  color: white;
+  font-family: sans-serif;
+  padding-bottom: 8px;
+}
+
+#comments {
+
+}
+
+/** Footer **/
+
+footer {
+  margin-top: 60px;
+}
